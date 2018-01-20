@@ -4,30 +4,21 @@ import { render } from 'react-dom';
 import React from 'react';
 
 import Header from './Header';
+import RequirementArea from './requirementArea';
+import Status from './Status';
+import CommentArea from './commentArea';
+import AddButton from './addButton';
+import RemoveButton from './removeButton';
 import './app.css';
-
-const requirementArea = (
-  <div className='requirementArea'>
-    This is a testing note
-  </div>
-);
-
-const status = 'ready pass fail thing';
-
-const commentThings = 'Yo';
-
-const addButton = <button>+</button>;
-
-const removeButton = <button>-</button>;
 
 const page = (
   <div>
     <Header />
-    {requirementArea}
-    {status}
-    {commentThings}
-    {addButton}
-    {removeButton}
+    <RequirementArea />
+    <Status />
+    <CommentArea />
+    <AddButton />
+    <RemoveButton />
   </div>
 );
 
