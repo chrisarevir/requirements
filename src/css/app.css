@@ -9,19 +9,6 @@ body {
   background: white;
 }
 
-header {
-  align-items: center;
-  background: indigo;
-  color: white;
-  display: flex;
-  height: 50px;
-  justify-content: center;
-}
-
-.title {
-  display: flex;
-}
-
 .requirementArea {
   background: white;
   height: 100%;

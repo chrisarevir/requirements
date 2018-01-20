@@ -9,7 +9,7 @@ import Status from './Status';
 import CommentArea from './commentArea';
 import AddButton from './addButton';
 import RemoveButton from './removeButton';
-import './app.css';
+import './app.global.css';
 
 const page = (
   <div>
