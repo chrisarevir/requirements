@@ -3,19 +3,18 @@
 import { render } from 'react-dom';
 import React from 'react';
 
+import Header from './Header';
 import './app.css';
 
-const header = (
-  <header>
-    <div className='title'>Requirements</div>
-  </header>
+const requirementArea = (
+  <div className='requirementArea'>
+    This is a testing note
+  </div>
 );
 
-const requirementArea = <div className='requirementArea'>"This is a testing note"</div>;
+const status = 'ready pass fail thing';
 
-const status = "ready pass fail thing";
-
-const commentThings = "Yo";
+const commentThings = 'Yo';
 
 const addButton = <button>+</button>;
 
@@ -23,7 +22,7 @@ const removeButton = <button>-</button>;
 
 const page = (
   <div>
-    {header}
+    <Header />
     {requirementArea}
     {status}
     {commentThings}
