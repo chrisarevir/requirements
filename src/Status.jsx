@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Status = () => (
-  <div>
+  <div className='status-button'>
     <button className='ready-button'>ready</button>
     <button className='pass-button'>pass</button>
     <button className='fail-button'>fail</button>
