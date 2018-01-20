@@ -11,8 +11,6 @@ import CommentArea from './commentArea';
 import RemoveButton from './removeButton';
 import './app.global.css';
 
-// test comment
-
 const page = (
   <div>
     <Header />
