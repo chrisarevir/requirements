@@ -2,7 +2,7 @@ import React from 'react';
 
 const CommentArea = () => (
   <div>
-    Comments
+    <h2>Comments:</h2>
     <input type="text" placeholder="Comments Here..."></input>
   </div>
 );
