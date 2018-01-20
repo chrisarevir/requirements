@@ -1,7 +1,7 @@
 import React from 'react';
 
 const RemoveButton = () => (
-  <button>Remove</button>
+  <button className='button'>Remove</button>
 );
 
 export default RemoveButton;

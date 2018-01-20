@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AddButton = () => (
-  <button>Add</button>
+  <button className='button'>Add</button>
 );
 
 export default AddButton;
