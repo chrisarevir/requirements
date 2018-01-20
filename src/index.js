@@ -15,7 +15,6 @@ const page = (
   <div>
     <Header />
     <RequirementArea />
-    <AddButton />
     <Status />
     <CommentArea />
     <RemoveButton />
