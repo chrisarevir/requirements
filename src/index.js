@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 import React from 'react';
 
 const header = <header>
-  <div className='title'>"Requirements"</div>
+  <div className='title'>Requirements</div>
 </header>
 
 const requirementArea = <div className='requirementArea'>"This is a testing note"</div>;
