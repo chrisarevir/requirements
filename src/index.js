@@ -1,11 +1,15 @@
-import './app.css';
+/* eslint-disable react/jsx-filename-extension */
 
 import { render } from 'react-dom';
 import React from 'react';
 
-const header = <header>
-  <div className='title'>"Requirements"</div>
-</header>
+import './app.css';
+
+const header = (
+  <header>
+    <div className='title'>Requirements</div>
+  </header>
+);
 
 const requirementArea = <div className='requirementArea'>"This is a testing note"</div>;
 
