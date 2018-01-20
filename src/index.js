@@ -3,9 +3,11 @@ import './app.css';
 import { render } from 'react-dom';
 import React from 'react';
 
-const header = "Ticket";
+const header = <header>
+  <div className='title'>"Requirements"</div>
+</header>
 
-const requirementArea = <div>Hey</div>;
+const requirementArea = <div className='requirementArea'>"This is a testing note"</div>;
 
 const status = "ready pass fail thing";
 
