@@ -6,14 +6,10 @@ const RequirementArea = () => (
   <div className='requirement-area'>
     <h1 className='requirement-area-header'>Requirements:</h1>
     <div className='requirement-area-text'>
-      <ul>Testing Note 1</ul>
-      <Status />
-      <ul>Testing Note 2</ul>
-      <Status />
-      <ul>Testing Note 3</ul>
+      <ul id='requirementLi'>Testing Note 1</ul>
       <Status />
     </div>
-    <input type="text" placeholder="Testing Note Here..."></input>
+    <input type='text' className='requirement-area-input' placeholder='Input Testing Note Here...'></input>
     <AddButton />
   </div>
 );
