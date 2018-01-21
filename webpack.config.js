@@ -22,14 +22,14 @@ module.exports = () => {
   const webAppManifestPlugin = new WebpackPwaManifest({
     'theme-color': '#00ced1',
     background_color: '#00ced1',
-    description: 'Lets get you a staging server!',
+    description: 'Testing is important',
     display: 'standalone',
     icons: [{
       src: path.resolve('src/assets/icon.png'),
       sizes: [16, 24, 32, 48, 64, 96, 128, 256, 512]
     }],
-    name: 'Stage Me',
-    short_name: 'Stage Me',
+    name: 'Require Me',
+    short_name: 'Require Me',
     start_url: '/', // TODO: Put to the right place
     theme_color: '#00ced1',
     viewport: 'width=device-width, initial-scale=1'
