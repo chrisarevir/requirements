@@ -90,6 +90,12 @@ module.exports = () => {
             { loader: 'css-loader', options: { importLoaders: 1 } },
             { loader: 'postcss-loader' }
           ]
+        },
+        {
+          test: /.*\.(gif|png|jpe?g)$/i,
+          use: [
+            { loader: 'file-loader' }
+          ]
         }
       ]
     },
