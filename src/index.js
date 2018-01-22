@@ -12,6 +12,7 @@ import './app.global.css';
 const page = (
   <div>
     <Header />
+    <h1 className='requirement-area-header'>Requirements:</h1>
     <RequirementArea />
     <AddButton />
   </div>

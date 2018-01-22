@@ -1,7 +1,8 @@
 .requirement-area {
   background: white;
+  display: flex;
+  flex-direction: row;
   height: 100%;
-  margin-left: 40px;
   margin-top: 30px;
   margin-bottom: 40px;
   width: 100%;
@@ -23,7 +24,8 @@
   left: 340px;
   padding: 15px;
   top: 50px;
-  width: 500px;
+  width: 300px;
+  margin: 8px;
 }
 
 .button {
@@ -46,13 +48,21 @@
 
 .button:hover {
   background: darkblue;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .button[disabled] {
 background: #eee;
 color: #aaa;
 cursor: not-allowed;
+}
+
+.trash-icon {
+  background: url('../assets/garbage.png');
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  align-self: center;
 }
 
 .ready-button {
