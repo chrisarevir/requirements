@@ -78,6 +78,15 @@ module.exports = () => {
     module: {
       rules: [
         {
+          enforce: 'pre',
+          test: /\.jsx?$/,
+          loader: 'eslint-loader',
+          exclude: /node_modules/,
+          options: {
+            fix: true
+          }
+        },
+        {
           test: /\.jsx?$/,
           loader: 'babel-loader',
           include: [path.resolve(__dirname, 'src')]
