@@ -2,7 +2,7 @@ import React from 'react';
 
 const CommentArea = () => (
   <div>
-    <input type="text" className='requirement-area-input' placeholder="Comments Here..."></input>
+    <input type='text' className='requirement-area-input' placeholder='Comments Here...' />
   </div>
 );
 

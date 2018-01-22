@@ -5,7 +5,7 @@ import React from 'react';
 
 import Header from './Header';
 import RequirementArea from './requirementArea';
-import CommentArea from './commentArea';
+// import CommentArea from './commentArea';
 import AddButton from './addButton';
 import './app.global.css';
 
