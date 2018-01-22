@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Status = () => (
-  <div className='status-button'>
-    <button className='ready-button'>ready</button>
-    <button className='pass-button'>pass</button>
-    <button className='fail-button'>fail</button>
+  <div className='status-buttons'>
+    <button className='status-button ready-button'>ready</button>
+    <button className='status-button pass-button'>pass</button>
+    <button className='status-button fail-button'>fail</button>
   </div>
 );
 

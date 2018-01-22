@@ -6,15 +6,14 @@ import React from 'react';
 import Header from './Header';
 import RequirementArea from './requirementArea';
 import CommentArea from './commentArea';
-import RemoveButton from './removeButton';
+import AddButton from './addButton';
 import './app.global.css';
 
 const page = (
   <div>
     <Header />
     <RequirementArea />
-    <CommentArea />
-    <RemoveButton />
+    <AddButton />
   </div>
 );
 

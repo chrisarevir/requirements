@@ -1,16 +1,15 @@
 import React from 'react';
-import AddButton from './addButton'
 import Status from './Status'
+import CommentArea from './commentArea'
+import RemoveButton from './removeButton'
 
 const RequirementArea = () => (
   <div className='requirement-area'>
     <h1 className='requirement-area-header'>Requirements:</h1>
-    <div className='requirement-area-text'>
-      <ul id='requirementLi'>Testing Note 1</ul>
-      <Status />
-    </div>
+    <Status />
     <input type='text' className='requirement-area-input' placeholder='Input Testing Note Here...'></input>
-    <AddButton />
+    <CommentArea />
+    <RemoveButton />
   </div>
 );
 
