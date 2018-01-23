@@ -19,7 +19,7 @@ class App extends React.Component {
   addRow = () => {
     console.log('Hi');
     this.setState({
-      rows: [1, 2, 3]
+      rows: this.state.rows.concat([2])
     });
   }
   render() {
