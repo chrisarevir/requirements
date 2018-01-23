@@ -9,19 +9,37 @@ import RequirementArea from './requirementArea';
 import AddButton from './addButton';
 import './app.global.css';
 
-const page = (
-  <div>
-    <Header />
-    <h1 className='requirement-area-header'>Requirements:</h1>
-    <RequirementArea />
-    <AddButton />
-  </div>
-);
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      rows: [1, 2]
+    };
+  }
+  addRow = () => {
+    console.log('Hi');
+    this.setState({
+      rows: [1, 2, 3]
+    });
+  }
+  render() {
+    return (
+      <div>
+        <Header />
+        <h1 className='requirement-area-header'>Requirements:</h1>
+        {
+          this.state.rows.map(row => <RequirementArea />)
+        }
+        <AddButton onClick={this.addRow} />
+      </div>
+    );
+  }
+}
 
 const node = document.createElement('div');
 document.body.appendChild(node);
 
 render(
-  page,
+  <App />,
   node
 );

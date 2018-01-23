@@ -13,14 +13,14 @@
   flex-direction: column;
 }
 
-.ready-button {
+.ready-button:active {
   background: orange;
 }
 
-.pass-button {
+.pass-button:active {
   background: green;
 }
 
-.fail-button {
+.fail-button:active {
   background: red;
 }
