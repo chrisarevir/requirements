@@ -42,19 +42,9 @@
   width: 55px;
 }
 
-.button:focus {
-  outline: 0;
-}
-
 .button:hover {
   background: darkblue;
   transform: scale(1.05);
-}
-
-.button[disabled] {
-background: #eee;
-color: #aaa;
-cursor: not-allowed;
 }
 
 .trash-icon {
@@ -63,46 +53,4 @@ cursor: not-allowed;
   height: 50px;
   width: 50px;
   align-self: center;
-}
-
-.ready-button {
-  background: orange;
-  border-radius: 4px;
-  border: 0;
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-  height: 18px;
-  left: 50%;
-  margin-right: 20px;
-  top: 280px;
-  width: 55px;
-}
-
-.pass-button {
-  background: green;
-  border-radius: 4px;
-  border: 0;
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-  height: 18px;
-  left: 50%;
-  margin-right: 20px;
-  top: 280px;
-  width: 55px;
-}
-
-.fail-button {
-  background: red;
-  border-radius: 4px;
-  border: 0;
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-  height: 18px;
-  left: 50%;
-  margin-right: 20px;
-  top: 280px;
-  width: 55px;
 }
