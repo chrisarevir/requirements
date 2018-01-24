@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
+  font-family: Lato, sans-serif;
   margin: 0;
   padding: 0;
   vertical-align: baseline;
-  font-family: Lato, sans-serif;
 }
 
 body {
@@ -11,18 +11,18 @@ body {
 }
 
 .add-button {
-  border: 0;
-  border-radius: 50px;
   background: pink;
+  border-radius: 50px;
+  border: 0;
+  bottom: 28px;
   color: white;
   height: 56px;
-  width: 56px;
   position: fixed;
   right: 24px;
-  bottom: 28px;
+  width: 56px;
   &:hover{
-    filter: brightness(115%);
     cursor: pointer;
+    filter: brightness(115%);
   }
 }
 
