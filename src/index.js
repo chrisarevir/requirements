@@ -17,7 +17,6 @@ class App extends React.Component {
     };
   }
   addRow = () => {
-    console.log('Hi');
     this.setState({
       rows: this.state.rows.concat([2])
     });

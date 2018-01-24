@@ -28,7 +28,7 @@
   margin: 8px;
 }
 
-.button {
+/*.button {
   background: lightgrey;
   border-radius: 4px;
   border: 0;
@@ -45,7 +45,7 @@
 .button:hover {
   background: darkblue;
   transform: scale(1.05);
-}
+}*/
 
 .trash-icon {
   background: url('../assets/garbage.png');

@@ -9,3 +9,24 @@
 body {
   background: white;
 }
+
+.add-button {
+  border: 0;
+  border-radius: 50px;
+  background: pink;
+  color: white;
+  height: 56px;
+  width: 56px;
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+  &:hover{
+    filter: brightness(115%);
+    cursor: pointer;
+  }
+}
+
+.plus-sign {
+  font-size: 30px;
+  padding-bottom: 2px;
+}
